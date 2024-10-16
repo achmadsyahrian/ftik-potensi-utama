@@ -27,14 +27,38 @@ class GenerateSitemap extends Command
                 ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY)
                 ->setPriority(0.8)
             )
-            // Psikologi S1
-            ->add(Url::create('/psikologi-s1')
+            // Teknik Industri
+            ->add(Url::create('/teknik-industri')
                 ->setLastModificationDate(now())
                 ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY)
                 ->setPriority(0.8)
             )
-            // Berita
-            ->add(Url::create('/berita')
+            // Informatika
+            ->add(Url::create('/informatika')
+                ->setLastModificationDate(now())
+                ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY)
+                ->setPriority(0.8)
+            )
+            // Sistem Informasi S1
+            ->add(Url::create('/sistem-informasi-s1')
+                ->setLastModificationDate(now())
+                ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY)
+                ->setPriority(0.8)
+            )
+            // Sistem Informasi D3
+            ->add(Url::create('/sistem-informasi-d3')
+                ->setLastModificationDate(now())
+                ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY)
+                ->setPriority(0.8)
+            )
+            // Teknik Industri
+            ->add(Url::create('/teknik-industri')
+                ->setLastModificationDate(now())
+                ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY)
+                ->setPriority(0.8)
+            )
+            // Ilmu Komputer S2
+            ->add(Url::create('/ilmu-komputer-s2')
                 ->setLastModificationDate(now())
                 ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
                 ->setPriority(0.9)

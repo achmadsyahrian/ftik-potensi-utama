@@ -3,7 +3,7 @@
 {{-- Head --}}
 @section('title', $title . ' - ' . env('APP_NAME'))
 @section('meta_description', 'Temukan berita terbaru dari '.env('APP_NAME').' Universitas Potensi Utama. Informasi pendidikan terkini, aktivitas fakultas, dan prestasi mahasiswa kami.')
-@section('meta_keywords', 'berita fpsi upu, berita fpsi potensi utama, berita pendidikan fakultas psikologi, berita kampus psikologi upu')
+@section('meta_keywords', 'berita ftik upu, berita ftik potensi utama, berita pendidikan fakultas teknik & ilmu komputer, berita kampus teknik & ilmu komputer upu')
 @section('canonical', env('APP_URL').'/berita')
 
 

@@ -1,8 +1,8 @@
 @extends('landing.layouts.app')
 {{-- Head --}}
-@section('title', 'Program Studi Psikologi S1 - '. env('APP_NAME'))
-@section('meta_description', 'Program Studi psikologi - '. env('APP_NAME'))
-@section('meta_keywords', 'psikologi upu, psikologi potensi utama, visi misi psikologi upu, berita psikologi potensi utama')
+@section('title', 'Program Studi Ilmu Komputer S2 - '. env('APP_NAME'))
+@section('meta_description', 'Program Studi Ilmu Komputer S2 - '. env('APP_NAME'))
+@section('meta_keywords', 'ilmu komputer s2 upu, ilmu komputer s2 potensi utama, visi misi ilmu komputer s2 upu, berita ilmu komputer s2 potensi utama')
 @section('canonical', env('APP_URL').'/program-studi/akuntansi')
 @section('content')
 
@@ -10,7 +10,7 @@
 
     <!-- ##### Post Details Title Area Start ##### -->
     <div class="post-details-title-area bg-overlay clearfix"
-        style="background-image: url({{ asset('landing/assets/img/building-img/gedung-b.jpg') }})">
+        style="background-image: url({{ asset('landing/assets/img/building-img/gedung-upu.jpg') }})">
         <div class="container-fluid h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12 col-lg-8">
@@ -34,32 +34,26 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-12">
-                    {{-- <div class="post-details-content mb-100">
+                    <div class="post-details-content mb-100">
                         <h1 class="mb-30">Visi Misi</h1>
                         <h4 class="mb-30">Visi</h4>
-                        <p>"Pada tahun 2035 menjadi progam studi hukum yang unggul di bidang peminatan hukum teknologi informasi, hukum pidana, hukum perdata yang berbasis teknologi dan informasi dengan menghasilkan lulusan yang beretika profesional di tingkat nasional serta berperan aktif tingkat intemasional".</p>
-
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero distinctio aperiam explicabo exercitationem temporibus iure adipisci inventore. Ab, reprehenderit eveniet?".</p>
                         <h4 class="mb-30">Misi</h4>
                         <table class="text-secondary mb-30" style="border-collapse: collapse; width: 100%;">
                             <tr>
                                 <td style="width: 3%; vertical-align: top;">1.</td>
-                                <td>Melaksanakan pendidikan dan pengajaran yang berkualitas dibidang Ilmu Hukum yang berbasis teknologi informasi sejalan dengan perkembangan ilmu pengetahuan
-                                 dan teknologi.</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ut minus eos, tenetur vero sed veritatis.</td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top;">2.</td>
-                                <td>Melaksanakan Penelitian dalam bidang Ilmu Hukum berbasis teknologi informasi yang bermanfaat bagi masyarakat dan dapat dipublikasi pada tingkat Nasional.</td>
+                                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet libero cupiditate unde cumque illo.</td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top;">3.</td>
-                                <td>Melaksanakan pelayanan yang bermanfaat bagi masyarakat dalam rangka meningkatkan pengetahuan dan kesadaran hukum masyarakat yang sejalan dengan perkembangan ilmu pengetahuan dan teknologi.</td>
-                            </tr>
-                            <tr>
-                                <td style="vertical-align: top;">4.</td>
-                                <td>Menjalin kerjasama dengan lembaga-lembaga Nasional, Universitas dan Lembaga Intemasional yang berbasis teknologi informasi.</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quam, atque quo vero harum repudiandae natus eveniet officiis?</td>
                             </tr>
                         </table>
-                    </div> --}}
+                    </div>
 
                     {{-- <div class="post-details-content mb-100">
                         <h1 class="mb-30">Kurikulum {{$title}}</h1>

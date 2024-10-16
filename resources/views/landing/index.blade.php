@@ -201,7 +201,7 @@
                                 <i class="fa fa-play" aria-hidden="true"></i>
                             </a>
 
-                            <span class="published-date">03 Mar, 2020p</span>
+                            <span class="published-date">03 Mar, 2020</span>
                             <h3 class="video-title">Tentang Kehidupan Kampus</h3>
                         </div>
                     </div>

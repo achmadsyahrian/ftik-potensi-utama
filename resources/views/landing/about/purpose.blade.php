@@ -10,7 +10,7 @@
     @include('landing.partials.breaking-news')
 
     <!-- ##### Post Details Title Area Start ##### -->
-    <div class="post-details-title-area bg-overlay clearfix" style="background-image: url({{asset('landing/assets/img/building-img/gedung-b.jpg')}})">
+    <div class="post-details-title-area bg-overlay clearfix" style="background-image: url({{asset('landing/assets/img/building-img/gedung-upu.jpg')}})">
         <div class="container-fluid h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12 col-lg-8">
@@ -37,20 +37,20 @@
                     <div class="post-details-content mb-100">
                         <h1 class="mb-30">Visi & Misi</h1>
                         <h4 class="mb-30">Visi</h4>
-                        <p>"Pada Tahun 2025 Menjadi Universitas Yang Unggul di Tingkat Sumatera dan Mampu Berperan Serta di Tingkat Nasional".</p>
+                        <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum optio repellendus dolore, quam perferendis quis culpa eum excepturi aliquam similique. Minus at voluptate sequi? Impedit atque nostrum sit magnam? Alias!".</p>
                         <h4 class="mb-30">Misi</h4>
                         <table class="text-secondary mb-30" style="border-collapse: collapse; width: 100%;">
                             <tr>
                                 <td style="width: 3%; vertical-align: top;">1.</td>
-                                <td>Melaksanakan Pendidikan yang Berkualitas di tinggat Sumatera.</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit sapiente iste?</td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top;">2.</td>
-                                <td>Melaksanakan Penelitian yang Dapat di Publikasikan pada Tingkat nasional.</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, necessitatibus!</td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top;">3.</td>
-                                <td>Melaksanakan Kegiatan dan layanan yang Bermanfaat bagi Masyarakat.</td>
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, veniam!</td>
                             </tr>
                         </table>
                     </div>

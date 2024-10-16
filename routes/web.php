@@ -39,8 +39,16 @@ Route::group(['namespace' => 'Landing', 'as' => 'landing.'], function() {
         })->name('purpose');
 
         // Program Studi
-            // Psikologi S1
-            Route::get('/program-studi/psikologi-s1', [AcademicController::class, 'psychology'])->name('academic.psychology');
+            // Teknik Industri
+            Route::get('/program-studi/teknik-industri', [AcademicController::class, 'engineering'])->name('academic.engineering');
+            // Informatika
+            Route::get('/program-studi/informatika', [AcademicController::class, 'informatics'])->name('academic.informatics');
+            // Sistem Informasi S1
+            Route::get('/program-studi/sistem-informasi-s1', [AcademicController::class, 'systems1'])->name('academic.systems1');
+            // Sistem Informasi D3
+            Route::get('/program-studi/sistem-informasi-d3', [AcademicController::class, 'systemd3'])->name('academic.systemd3');
+            // Ilmu Komputer
+            Route::get('/program-studi/ilmu-komputer-s2', [AcademicController::class, 'computerScience'])->name('academic.computerScience');
 
         // Akreditasi
         // Route::view('/akreditasi', 'landing.about.accreditation')->name('accreditation');
