@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "010877775cdd9fb2bfdd6a76fe8ec44c",
+    "content-hash": "5003568a7e1da8e60f31b2741163e4be",
     "packages": [
         {
             "name": "brick/math",
@@ -3567,16 +3567,16 @@
         },
         {
             "name": "spatie/robots-txt",
-            "version": "2.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/robots-txt.git",
-                "reference": "db55c5f4aef0bd8576b03b80dc3ede3d176b9cdf"
+                "reference": "560d6d1776ee3a13af26ac4e04171a5d32f3923f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/robots-txt/zipball/db55c5f4aef0bd8576b03b80dc3ede3d176b9cdf",
-                "reference": "db55c5f4aef0bd8576b03b80dc3ede3d176b9cdf",
+                "url": "https://api.github.com/repos/spatie/robots-txt/zipball/560d6d1776ee3a13af26ac4e04171a5d32f3923f",
+                "reference": "560d6d1776ee3a13af26ac4e04171a5d32f3923f",
                 "shasum": ""
             },
             "require": {
@@ -3611,7 +3611,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/robots-txt/issues",
-                "source": "https://github.com/spatie/robots-txt/tree/2.2.1"
+                "source": "https://github.com/spatie/robots-txt/tree/2.2.2"
             },
             "funding": [
                 {
@@ -3623,7 +3623,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-09T09:07:48+00:00"
+            "time": "2024-09-25T08:55:09+00:00"
         },
         {
             "name": "spatie/temporary-directory",

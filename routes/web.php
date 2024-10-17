@@ -10,6 +10,7 @@ use App\Models\Post;
 use App\Models\Research;
 use App\Models\Tag;
 use Illuminate\Support\Facades\Route;
+use Spatie\Sitemap\SitemapGenerator;
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -47,7 +48,7 @@ Route::group(['namespace' => 'Landing', 'as' => 'landing.'], function() {
             Route::get('/program-studi/sistem-informasi-s1', [AcademicController::class, 'systems1'])->name('academic.systems1');
             // Sistem Informasi D3
             Route::get('/program-studi/sistem-informasi-d3', [AcademicController::class, 'systemd3'])->name('academic.systemd3');
-            // Ilmu Komputer
+            // Ilmu Komputer S2
             Route::get('/program-studi/ilmu-komputer-s2', [AcademicController::class, 'computerScience'])->name('academic.computerScience');
 
         // Akreditasi
