@@ -3,7 +3,10 @@
 @section('title', 'Program Studi Teknik Industri - '. env('APP_NAME'))
 @section('meta_description', 'Program Studi Teknik Industri - '. env('APP_NAME'))
 @section('meta_keywords', 'Teknik Industri upu, teknik industri potensi utama, visi misi teknik industri upu, berita teknik industri potensi utama')
-@section('canonical', env('APP_URL').'/program-studi/akuntansi')
+@section('canonical', env('APP_URL').'/program-studi/teknik-industri')
+@section('json-ld')
+<script type="application/ld+json">{"@context": "https://schema.org","@type": "EducationalOrganization","name": "Teknik Industri","url": "{{env('APP_URL')}}/program-studi/teknik-industri","address": {"@type": "PostalAddress","addressLocality": "Medan","addressRegion": "Sumatera Utara","postalCode": "20241","streetAddress": "Jl. K.L Yos Sudarso, Km. 6,5 , No. 3-a, Tj. Mulia, Kec. Medan Deli" },"department": {"@type": "EducationalOrganization","name": "{{env('APP_NAME')}}","url": "{{env('APP_URL')}}"}}</script>
+@endsection
 @section('content')
 
    @include('landing.partials.breaking-news')

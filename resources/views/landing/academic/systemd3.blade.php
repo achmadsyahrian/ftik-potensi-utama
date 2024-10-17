@@ -3,7 +3,10 @@
 @section('title', 'Program Studi Sistem Informasi D3 - '. env('APP_NAME'))
 @section('meta_description', 'Program Studi Sistem Informasi D3 - '. env('APP_NAME'))
 @section('meta_keywords', 'sistem informasi d3 upu, sistem informasi d3 potensi utama, visi misi sistem informasi d3 upu, berita sistem informasi d3 potensi utama')
-@section('canonical', env('APP_URL').'/program-studi/akuntansi')
+@section('canonical', env('APP_URL').'/program-studi/sistem-informasi-d3')
+@section('json-ld')
+<script type="application/ld+json">{"@context": "https://schema.org","@type": "EducationalOrganization","name": "Sistem Informasi D3","url": "{{env('APP_URL')}}/program-studi/sistem-informasi-d3","address": {"@type": "PostalAddress","addressLocality": "Medan","addressRegion": "Sumatera Utara","postalCode": "20241","streetAddress": "Jl. K.L Yos Sudarso, Km. 6,5 , No. 3-a, Tj. Mulia, Kec. Medan Deli" },"department": {"@type": "EducationalOrganization","name": "{{env('APP_NAME')}}","url": "{{env('APP_URL')}}"}}</script>
+@endsection
 @section('content')
 
    @include('landing.partials.breaking-news')

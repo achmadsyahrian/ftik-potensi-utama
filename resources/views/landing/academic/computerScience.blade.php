@@ -3,7 +3,10 @@
 @section('title', 'Program Studi Ilmu Komputer S2 - '. env('APP_NAME'))
 @section('meta_description', 'Program Studi Ilmu Komputer S2 - '. env('APP_NAME'))
 @section('meta_keywords', 'ilmu komputer s2 upu, ilmu komputer s2 potensi utama, visi misi ilmu komputer s2 upu, berita ilmu komputer s2 potensi utama')
-@section('canonical', env('APP_URL').'/program-studi/akuntansi')
+@section('canonical', env('APP_URL').'/program-studi/ilmu-komputer-s2')
+@section('json-ld')
+<script type="application/ld+json">{"@context": "https://schema.org","@type": "EducationalOrganization","name": "Ilmu Komputer S2","url": "{{env('APP_URL')}}/program-studi/ilmu-komputer-s2","address": {"@type": "PostalAddress","addressLocality": "Medan","addressRegion": "Sumatera Utara","postalCode": "20241","streetAddress": "Jl. K.L Yos Sudarso, Km. 6,5 , No. 3-a, Tj. Mulia, Kec. Medan Deli" },"department": {"@type": "EducationalOrganization","name": "{{env('APP_NAME')}}","url": "{{env('APP_URL')}}"}}</script>
+@endsection
 @section('content')
 
    @include('landing.partials.breaking-news')
