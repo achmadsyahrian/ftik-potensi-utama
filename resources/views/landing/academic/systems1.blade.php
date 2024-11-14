@@ -38,27 +38,48 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-12">
                     <div class="post-details-content mb-100">
-                        <h1 class="mb-30">Visi Misi</h1>
+                        <h1 class="mb-30">Visi Misi & Tujuan</h1>
                         <h4 class="mb-30">Visi</h4>
-                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero distinctio aperiam explicabo exercitationem temporibus iure adipisci inventore. Ab, reprehenderit eveniet?".</p>
+                        <p>"Pada Tahun 2025 Menjadi program studi Sistem Informasi khususnya dalam bidang Sistem informasi Korporasi yang unggul di tingkat Sumatera dan mampu berperan serta ditingkat Nasional".</p>
+
                         <h4 class="mb-30">Misi</h4>
                         <table class="text-secondary mb-30" style="border-collapse: collapse; width: 100%;">
                             <tr>
                                 <td style="width: 3%; vertical-align: top;">1.</td>
-                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ut minus eos, tenetur vero sed veritatis.</td>
+                                <td>Melaksanakan pendidikan yang berkualitas dalam bidang Sistem Informasi khususnya dalam bidang Sistem informasi Korporasi, yang sesuai dengan perkembangan Ilmu Pengetahuan dan Teknologi.</td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top;">2.</td>
-                                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet libero cupiditate unde cumque illo.</td>
+                                <td>Melaksanakan penelitian dalam bidang Sistem Informasi yang dapat dipublikasikan pada tingkat Nasional .</td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top;">3.</td>
-                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quam, atque quo vero harum repudiandae natus eveniet officiis?</td>
+                                <td>Melaksanakan kegiatan dan layanan yang bermanfaat bagi masyarakat dalam bidang Sistem Informasi.</td>
+                            </tr>
+                        </table>
+
+                        <h4 class="mb-30">Tujuan</h4>
+                        <table class="text-secondary mb-30" style="border-collapse: collapse; width: 100%;">
+                            <tr>
+                                <td style="width: 3%; vertical-align: top;">1.</td>
+                                <td>Menghasilkan lulusan yang unggul, profesional dan bermental wirausaha dalam bidang Teknik Industri dan Ilmu Komputer.</td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: top;">2.</td>
+                                <td>Menghasilkan lulusan yang mempunyai landasan teori keilmuan yang kuat dan kemampuan praktis yang tinggi dalam bidang Teknik Industri dan Ilmu Komputer.</td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: top;">3.</td>
+                                <td>Menghasilkan karya ilmiah dan hasil penelitian lainnya yang dipublikasikan pada tingkat Nasional.</td>
+                            </tr>
+                            <tr>
+                              <td style="vertical-align: top;">4.</td>
+                              <td>Terjalinnya kerjasama dengan masyarakat, industri, pemerintah dan stakeholder lainnya pada tingkat Nasional.</td>
                             </tr>
                         </table>
                     </div>
 
-                    {{-- <div class="post-details-content mb-100">
+                    <div class="post-details-content mb-100">
                         <h1 class="mb-30">Kurikulum {{$title}}</h1>
                         <div class="col-12 col-lg-12">
                             <div class="accordions mb-50" id="accordion" role="tablist" aria-multiselectable="true">
@@ -84,48 +105,48 @@
                                             <tbody>
                                                 <tr>
                                                     <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">1</td>
-                                                    <td style="border: 1px solid #ddd; padding: 8px;">Pendidikan Agama I</td>
+                                                    <td style="border: 1px solid #ddd; padding: 8px;">Pendidikan Agama</td>
                                                     <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
-                                                    <td style="border: 1px solid #ddd; padding: 8px;">Pengantar Aplikasi Komputer</td>
-                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
+                                                    <td style="border: 1px solid #ddd; padding: 8px;">Pancasila dan kewarganegaran</td>
+                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
-                                                    <td style="border: 1px solid #ddd; padding: 8px;">English Language</td>
-                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
+                                                    <td style="border: 1px solid #ddd; padding: 8px;">Matematika</td>
+                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">4</td>
-                                                    <td style="border: 1px solid #ddd; padding: 8px;">Pengantar Akuntansi I</td>
-                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
+                                                    <td style="border: 1px solid #ddd; padding: 8px;">Bahasa Inggris</td>
+                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">5</td>
-                                                    <td style="border: 1px solid #ddd; padding: 8px;">Pengantar Bisnis</td>
-                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
+                                                    <td style="border: 1px solid #ddd; padding: 8px;">Pengantar Manajemen dan bisnis</td>
+                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">6</td>
-                                                    <td style="border: 1px solid #ddd; padding: 8px;">Pengantar Ekonomi</td>
-                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
+                                                    <td style="border: 1px solid #ddd; padding: 8px;">Pengantar Teknologi Informasi</td>
+                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">7</td>
-                                                    <td style="border: 1px solid #ddd; padding: 8px;">Pendidikan Pancasila</td>
-                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
+                                                    <td style="border: 1px solid #ddd; padding: 8px;">Dasar pemograman</td>
+                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">8</td>
-                                                    <td style="border: 1px solid #ddd; padding: 8px;">Matematika Ekonomi</td>
-                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
+                                                    <td style="border: 1px solid #ddd; padding: 8px;">Design Web</td>
+                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"></td>
                                                    <td style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">Total SKS Semester 1</span></td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">20</span></td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">19</span></td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -154,27 +175,27 @@
                                           <tbody>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">1</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Pengantar Manajemen</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
-                                                </tr>
-                                                <tr>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                    <td style="border: 1px solid #ddd; padding: 8px;">Pendidikan Agama II</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Bahasa Inggris II</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
+                                                </tr>
+                                                <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Bahasa Indonesia</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Struktur Data</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">4</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Hukum Bisnis</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Pemograman Berorietasi Objek</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">5</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Pengantar Akuntansi II</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Pemograman Web</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
@@ -184,13 +205,18 @@
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">7</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Manajemen Pemasaran</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Basis Data</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">8</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">English For Business</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Statistik dan Probabilitas</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
+                                                </tr>
+                                                <tr>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">9</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Perencanaan Sistem Informasi</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"></td>
@@ -224,48 +250,48 @@
                                           <tbody>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">1</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Pendidikan Kewarganegaraan</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Interaksi Manusia dan Komputer</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Akuntansi Biaya</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Manajemen Sistem Informasi</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Akuntansi Keuangan Menengah I</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Sistem Basis Data</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">4</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Komunikasi Bisnis</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Pemograman Internet</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">5</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Komputer Akuntansi I</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
-                                                </tr>
-                                                <tr>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">6</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Bisnis Digital</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Matematika Diskrit</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">7</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Akuntansi Sektor Publik</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">6</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Jaringan Komputer</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">7</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Organisasi Sistem Komputer</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
+                                                </tr>
+                                                <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">8</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Manajemen Keuangan</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Teori dan Prilaku Organisasi</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"></td>
                                                    <td style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">Total SKS Semester 3</span></td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">21</span></td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">20</span></td>
                                                 </tr>
                                           </tbody>
                                        </table>
@@ -293,43 +319,43 @@
                                           <tbody>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">1</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Akuntansi Manajemen</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Analisa dan Disain Sistem Informasi</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Komputer Akuntansi II</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Data Warehouse</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Akuntansi Keuangan Menengah II</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Sistem penunjang Keputusan</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">4</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Pengauditan dan Asuransi I</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Arsitektur dan infrastuktur IT</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">5</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Perpajakan I</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Tata kelola Infrastruktur teknologi Informasi</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">6</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Sistem Informasi Akuntansi</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Sistem Bisnis Cerdas</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">7</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Penganggaran</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">E bisnis</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"></td>
                                                    <td style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">Total SKS Semester 4</span></td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">21</span></td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">19</span></td>
                                                 </tr>
                                           </tbody>
                                        </table>
@@ -357,37 +383,37 @@
                                           <tbody>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">1</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Manajemen Strategik dan Resiko</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Data Mining</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Akuntansi Keuangan Lanjutan</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Manajemen proyek sistem informasi</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Pengauditan dan Asuransi II</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Keamanan Sistem Informasi</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">4</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Perpajakan II</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Manajemen Layanan Teknologi Informasi</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">5</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Praktek Sistem Informasi Akuntansi</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Rekayasa Ulang Proses Bisnis</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">6</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Kewirausahaan</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Simulasi dan Pemodelan Sistem Informasi</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">7</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Sistem Informasi Manajemen</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Pemograman Mobile</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
@@ -421,43 +447,48 @@
                                           <tbody>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">1</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Metodelogi Penelitian Akuntansi</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">6</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Metodologi Penelitian</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Analisa Laporan Keuangan</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">PKL</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Sistem Pengendalian Manajemen</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Bahasa Indonesia</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">4</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Investasi dan Pasar Modal</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Control Audit Sistem Informasi</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">5</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Etika Bisnis dan Profesi Akuntansi</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Sistem Cloud</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">6</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Teori Akuntansi</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Pilihan 1</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">7</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">PKL</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Pilihan 2</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
+                                                </tr>
+                                                <tr>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">8</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">IT Service Management</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"></td>
                                                    <td style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">Total SKS Semester 6</span></td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">23</span></td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">21</span></td>
                                                 </tr>
                                           </tbody>
                                        </table>
@@ -485,47 +516,38 @@
                                           <tbody>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">1</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Aplikasi dan Analisis Data Akuntansi</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Knowledge Management System</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Seminar Proposal</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Manajemen Resiko Sistem Informasi</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Audit Sistem Informasi</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Proposal</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">4</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Analisis dan Desain Sistem</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Komunikasi Skill</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">5</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Perencanaan Pajak</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Pilihan 3</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">6</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Akuntansi Forensik dan Investigasi</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
-                                                </tr>
-                                                <tr>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">7</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Enterprise Resource Planning</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
-                                                </tr><tr>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">8</td>
-                                                   <td style="border: 1px solid #ddd; padding: 8px;">Sistem Manajemen Database</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Internet Of Things</td>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"></td>
                                                    <td style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">Total SKS Semester 7</span></td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">24</span></td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">16</span></td>
                                                 </tr>
                                           </tbody>
                                        </table>
@@ -554,12 +576,27 @@
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">1</td>
                                                    <td style="border: 1px solid #ddd; padding: 8px;">Skripsi</td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">6</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">4</td>
+                                                </tr>
+                                                <tr>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Etika Profesi teknologi Sistem Informasi</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
+                                                </tr>
+                                                <tr>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">3</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Technoprenuership IT</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
+                                                </tr>
+                                                <tr>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">4</td>
+                                                   <td style="border: 1px solid #ddd; padding: 8px;">Kepemimpinan dan interpersonal</td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;">2</td>
                                                 </tr>
                                                 <tr>
                                                    <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"></td>
                                                    <td style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">Total SKS Semester 8</span></td>
-                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">6</span></td>
+                                                   <td class="text-center" style="border: 1px solid #ddd; padding: 8px;"><span style="font-weight: bold;">10</span></td>
                                                 </tr>
                                           </tbody>
                                        </table>
@@ -570,12 +607,12 @@
                               <thead>
                                   <tr>
                                     <th style="border: 0 solid #ddd; padding: 8px; text-align: right;">Total Seluruh SKS:</th>
-                                    <th style="border: 0 solid #ddd; padding: 8px; text-align: center;">157</th>
+                                    <th style="border: 0 solid #ddd; padding: 8px; text-align: center;">148</th>
                                   </tr>
                               </thead>
                            </table>
                         </div>
-                    </div> --}}
+                    </div>
 
                     {{-- Berita Prodi --}}
                     <x-academic-news :latestPosts="$latestPosts"></x-academic-news>

@@ -36,7 +36,7 @@
                                     <!-- Blog Content -->
                                     <div class="blog-content">
                                         <span class="post-date">{{ $latestNews[0]->created_at->format('M j, Y') }}</span>
-                                        <a href="{{route('landing.news.show', $latestNews[0]->slug)}}" class="post-title">{{ $latestNews[0]->title }}</a>
+                                        <a href="{{route('landing.news.show', $latestNews[0]->slug)}}" class="post-title">{{ \Illuminate\Support\Str::limit($latestNews[0]->title, 80, '...') }}</a>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@
                                     <!-- Blog Content -->
                                     <div class="blog-content">
                                         <span class="post-date">{{ $latestNews[1]->created_at->format('M j, Y') }}</span>
-                                        <a href="{{route('landing.news.show', $latestNews[1]->slug)}}" class="post-title">{{ $latestNews[1]->title }}</a>
+                                        <a href="{{route('landing.news.show', $latestNews[1]->slug)}}" class="post-title">{{ \Illuminate\Support\Str::limit($latestNews[1]->title, 80, '...') }}</a>
                                     </div>
                                 </div>
                                 <!-- Single Blog Post Area -->
@@ -83,7 +83,7 @@
                                     <!-- Blog Content -->
                                     <div class="blog-content">
                                         <span class="post-date">{{ $latestNews[2]->created_at->format('M j, Y') }}</span>
-                                        <a href="{{route('landing.news.show', $latestNews[2]->slug)}}" class="post-title">{{ $latestNews[2]->title }}</a>
+                                        <a href="{{route('landing.news.show', $latestNews[2]->slug)}}" class="post-title">{{ \Illuminate\Support\Str::limit($latestNews[2]->title, 80, '...') }}</a>
                                     </div>
                                 </div>
                             </div>
@@ -260,7 +260,7 @@
         </div>
     </div>
 
-    {{-- <div class="col-12">
+    <div class="col-12">
         <div class="elements-title mb-30 text-center">
             <h2>Keanggotaan dan Kerjasama</h2>
         </div>
@@ -280,7 +280,7 @@
                                 <div class="blog-thumbnail">
                                     <a href="#" ><img
                                             src="{{ asset('landing/assets/img/kerjasama-img/1.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Konsulat Japan" title="Konsulat Japan"></a>
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="STMIK Sepnop Jayapura" title="STMIK Sepnop Jayapura"></a>
                                 </div>
                             </div>
 
@@ -289,7 +289,7 @@
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
                                             src="{{ asset('landing/assets/img/kerjasama-img/2.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Konsulat Timor Leste" title="Konsulat Timor Leste"></a>
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="STMIK Adhi Guna Palu" title="STMIK Adhi Guna Palu"></a>
                                 </div>
                             </div>
 
@@ -298,7 +298,7 @@
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
                                             src="{{ asset('landing/assets/img/kerjasama-img/3.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Konsulat Malaysia" title="Konsulat Malaysia"></a>
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="STMIK PalComTech Palembang" title="STMIK PalComTech Palembang"></a>
                                 </div>
                             </div>
 
@@ -307,7 +307,7 @@
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
                                             src="{{ asset('landing/assets/img/kerjasama-img/4.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Reviewnesia" title="Reviewnesia"></a>
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="STMIK Profesional Makassar" title="STMIK Profesional Makassar"></a>
                                 </div>
                             </div>
 
@@ -316,7 +316,7 @@
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
                                             src="{{ asset('landing/assets/img/kerjasama-img/5.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Konsulat India" title="Konsulat India"></a>
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="STMIK Pontianak" title="STMIK Pontianak"></a>
                                 </div>
                             </div>
 
@@ -325,7 +325,7 @@
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
                                             src="{{ asset('landing/assets/img/kerjasama-img/6.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Konsulat Jerman" title="Konsulat Jerman"></a>
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="STMIK PPKIA Kalimantan Utara" title="STMIK PPKIA Kalimantan Utara"></a>
                                 </div>
                             </div>
 
@@ -333,7 +333,7 @@
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
                                             src="{{ asset('landing/assets/img/kerjasama-img/7.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Konsulat Amerika" title="Konsulat Amerika"></a>
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="STIKOM Banyuwangi" title="STIKOM Banyuwangi"></a>
                                 </div>
                             </div>
 
@@ -341,7 +341,7 @@
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
                                             src="{{ asset('landing/assets/img/kerjasama-img/8.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="UNHCR" title="UNHCR"></a>
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="Universitas Raharja Tangerang" title="Universitas Raharja Tangerang"></a>
                                 </div>
                             </div>
 
@@ -349,7 +349,7 @@
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
                                             src="{{ asset('landing/assets/img/kerjasama-img/9.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Universitas Al Muslim" title="Universitas Al Muslim"></a>
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="Institut STIKOM Bali" title="Institut STIKOM Bali"></a>
                                 </div>
                             </div>
 
@@ -357,7 +357,7 @@
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
                                             src="{{ asset('landing/assets/img/kerjasama-img/10.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Walhi" title="Walhi"></a>
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="Institut Atma Luhur Pangkal Pinang" title="Institut Atma Luhur Pangkal Pinang"></a>
                                 </div>
                             </div>
 
@@ -365,7 +365,7 @@
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
                                             src="{{ asset('landing/assets/img/kerjasama-img/11.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="HI-PM" title="HI-PM"></a>
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="Universitas Bina Nusantara" title="Universitas Bina Nusantara"></a>
                                 </div>
                             </div>
 
@@ -373,7 +373,7 @@
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
                                             src="{{ asset('landing/assets/img/kerjasama-img/12.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Grand Inna Medan" title="Grand Inna Medan"></a>
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="Universitas Amikon Yogyakarta" title="Universitas Amikon Yogyakarta"></a>
                                 </div>
                             </div>
 
@@ -381,7 +381,7 @@
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
                                             src="{{ asset('landing/assets/img/kerjasama-img/13.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Alliance Francaise Medan" title="Alliance Francaise Medan"></a>
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="UNKLAB Manado" title="UNKLAB Manado"></a>
                                 </div>
                             </div>
 
@@ -389,7 +389,15 @@
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
                                             src="{{ asset('landing/assets/img/kerjasama-img/14.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Yagasu" title="Yagasu"></a>
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="Universitas Bumigora Mataram" title="Universitas Bumigora Mataram"></a>
+                                </div>
+                            </div>
+
+                            <div class="single-blog-post style-3">
+                                <div class="blog-thumbnail">
+                                    <a href="#"><img
+                                            src="{{ asset('landing/assets/img/kerjasama-img/15.png') }}"
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="UDINUS Semarang" title="UDINUS Semarang"></a>
                                 </div>
                             </div>
 
@@ -398,6 +406,6 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 
 @endsection

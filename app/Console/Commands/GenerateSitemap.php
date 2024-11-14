@@ -63,6 +63,18 @@ class GenerateSitemap extends Command
                 ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
                 ->setPriority(0.9)
             )
+            // Rekayasa Sistem Komputer
+            ->add(Url::create('/program-studi/rekayasa-sistem-komputer')
+                ->setLastModificationDate(now())
+                ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
+                ->setPriority(0.9)
+            )
+            // Rekayasa Perangkat Lunak
+            ->add(Url::create('/program-studi/rekayasa-perangkat-lunak')
+                ->setLastModificationDate(now())
+                ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
+                ->setPriority(0.9)
+            )
             // Pengumuman
             ->add(Url::create('/pengumuman')
                 ->setLastModificationDate(now())

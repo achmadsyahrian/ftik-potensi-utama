@@ -50,6 +50,10 @@ Route::group(['namespace' => 'Landing', 'as' => 'landing.'], function() {
             Route::get('/program-studi/sistem-informasi-d3', [AcademicController::class, 'systemd3'])->name('academic.systemd3');
             // Ilmu Komputer S2
             Route::get('/program-studi/ilmu-komputer-s2', [AcademicController::class, 'computerScience'])->name('academic.computerScience');
+            // Rekayasa Sistem Komputer
+            Route::get('/program-studi/rekayasa-sistem-komputer', [AcademicController::class, 'computerSystem'])->name('academic.computerSystem');
+            // Rekayasa Perangkat Lunak
+            Route::get('/program-studi/rekayasa-perangkat-lunak', [AcademicController::class, 'softwareSystem'])->name('academic.softwareSystem');
 
         // Akreditasi
         // Route::view('/akreditasi', 'landing.about.accreditation')->name('accreditation');

@@ -38,6 +38,16 @@ class CategorySeeder extends Seeder
             'name' => 'Ilmu Komputer S2',
             'slug' => 'ilmu-komputer-s2',
         ]);
+
+        Category::create([
+            'name' => 'Rekayasa Sistem Komputer',
+            'slug' => 'rekayasa-sistem-komputer',
+        ]);
+
+        Category::create([
+            'name' => 'Rekayasa Perangkat Lunak',
+            'slug' => 'rekayasa-perangkat-lunak',
+        ]);
         
         Category::create([
             'name' => 'Akademik',

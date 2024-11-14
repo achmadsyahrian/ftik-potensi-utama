@@ -37,6 +37,17 @@ class TagSeeder extends Seeder
             'name' => 'Ilmu Komputer S2',
             'slug' => 'ilmu-komputer-s2',
         ]);
+
+        Tag::create([
+            'name' => 'Rekayasa Sistem Komputer',
+            'slug' => 'rekayasa-sistem-komputer',
+        ]);
+
+        Tag::create([
+            'name' => 'Rekayasa Perangkat Lunak',
+            'slug' => 'rekayasa-perangkat-lunak',
+        ]);
+
         Tag::create([
             'name' => 'Kegiatan Mahasiswa',
             'slug' => 'kegiatan-mahasiswa',

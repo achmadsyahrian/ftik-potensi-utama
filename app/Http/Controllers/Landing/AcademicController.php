@@ -97,5 +97,41 @@ class AcademicController extends Controller
 
         return view('landing.academic.computerScience', compact('latestPosts', 'title'));
     }
+
+    public function computerSystem() {
+        $title = "Rekayasa Sistem Komputer";
+        
+        $latestPosts = Post::where('type', 'news')
+            ->where('is_published', 1)
+            ->where(function ($query) {
+                $query->where('category_id', 6)
+                    ->orWhereHas('tags', function ($query) {
+                        $query->where('tags.id', 6);
+                    });
+            })
+            ->orderBy('created_at', 'desc')
+            ->take(3)
+            ->get();
+
+        return view('landing.academic.computerSystem', compact('latestPosts', 'title'));
+    }
+
+    public function softwareSystem() {
+        $title = "Rekayasa Perangkat Lunak";
+        
+        $latestPosts = Post::where('type', 'news')
+            ->where('is_published', 1)
+            ->where(function ($query) {
+                $query->where('category_id', 7)
+                    ->orWhereHas('tags', function ($query) {
+                        $query->where('tags.id', 7);
+                    });
+            })
+            ->orderBy('created_at', 'desc')
+            ->take(3)
+            ->get();
+
+        return view('landing.academic.softwareSystem', compact('latestPosts', 'title'));
+    }
     
 }

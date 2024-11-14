@@ -37,20 +37,20 @@
                     <div class="post-details-content mb-100">
                         <h1 class="mb-30">Visi & Misi</h1>
                         <h4 class="mb-30">Visi</h4>
-                        <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum optio repellendus dolore, quam perferendis quis culpa eum excepturi aliquam similique. Minus at voluptate sequi? Impedit atque nostrum sit magnam? Alias!".</p>
+                        <p>"Pada Tahun 2035 menjadi Fakultas Teknik dan Ilmu Komputer yang unggul di tingkat Nasional dan mampu bersaing di tingkat Internasional dan mempunyai semangat Enterpreneurship".</p>
                         <h4 class="mb-30">Misi</h4>
                         <table class="text-secondary mb-30" style="border-collapse: collapse; width: 100%;">
                             <tr>
                                 <td style="width: 3%; vertical-align: top;">1.</td>
-                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit sapiente iste?</td>
+                                <td>Melaksanakan pendidikan yang berkualitas yang berkualitas ditingkat Nasional</td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top;">2.</td>
-                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, necessitatibus!</td>
+                                <td>Melaksanakan Penelitian yang dapat dipublikasikan pada tingkat Nasional dan berperan serta di tingkat International</td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top;">3.</td>
-                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, veniam!</td>
+                                <td>Melaksanakan kegiatan dan layanan yang bermanfaat bagi masyarakat ditingkat nasional dan berperan serta di tingkat international</td>
                             </tr>
                         </table>
                     </div>

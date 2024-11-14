@@ -33,11 +33,13 @@
                                     </ul>
                                 </li>
                                 <li><a href="#">Program Studi</a>
-                                    <ul class="dropdown">
+                                    <ul class="dropdown" style="width: max-content">
                                         <li><a href="{{route('landing.academic.engineering')}}">Teknik Industri</a></li>
                                         <li><a href="{{route('landing.academic.informatics')}}">Informatika</a></li>
                                         <li><a href="{{route('landing.academic.systems1')}}">Sistem Informasi S1</a></li>
                                         <li><a href="{{route('landing.academic.systemd3')}}">Sistem Informasi D3</a></li>
+                                        <li ><a href="{{route('landing.academic.computerSystem')}}">Rekayasa Sistem Komputer</a></li>
+                                        <li ><a href="{{route('landing.academic.softwareSystem')}}">Rekayasa Perangkat Lunak</a></li>
                                         <li><a href="{{route('landing.academic.computerScience')}}">Ilmu Komputer S2</a></li>
                                     </ul>
                                 </li>
