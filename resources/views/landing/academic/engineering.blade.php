@@ -40,21 +40,21 @@
                     <div class="post-details-content mb-100">
                         <h1 class="mb-30">Visi Misi & Tujuan</h1>
                         <h4 class="mb-30">Visi</h4>
-                        <p>"Pada Tahun 2025 menjadi Program Studi Teknik Industri yang unggul di bidang manufakturing di tingkat Sumatera dan mampu berperan serta di tingkat Nasional".</p>
+                        <p>"Pada Tahun 2035 menjadi Program Studi Teknik Industri yang unggul  dalam Pengembangan Keilmuan Teknik Industri bidang Manufakturing Berbasis IoT  di tingkat Nasional".</p>
 
                         <h4 class="mb-30">Misi</h4>
                         <table class="text-secondary mb-30" style="border-collapse: collapse; width: 100%;">
                             <tr>
                                 <td style="width: 3%; vertical-align: top;">1.</td>
-                                <td>Melaksanakan pendidikan yang berkualitas dalam bidang manufacturing yang sesuai dengan perkembangan Ilmu Pengetahuan dan Teknologi.</td>
+                                <td>Melaksanakan pendidikan yang berkualitas dalam bidang manufakturing Berbasis IoT yang sesuai dengan perkembangan Ilmu Pengetahuan dan Teknologi.</td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top;">2.</td>
-                                <td>Melaksanakan penelitian dalam bidang manufakturing yang dapat dipublikasikan pada tingkat Nasional.</td>
+                                <td>Melaksanakan penelitian dalam bidang manufakturing Berbasis IoT yang dapat dipublikasikan pada tingkat Nasional..</td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top;">3.</td>
-                                <td>Melaksanakan kegiatan dan layanan yang bermanfaat bagi masyarakat dalam bidang manufakturing pada Teknik Industri</td>
+                                <td>Melaksanakan kegiatan dan layanan yang bermanfaat bagi masyarakat dalam bidang manufakturing Berbasis IoT pada Teknik Industri</td>
                             </tr>
                         </table>
 
@@ -62,19 +62,19 @@
                         <table class="text-secondary mb-30" style="border-collapse: collapse; width: 100%;">
                             <tr>
                                 <td style="width: 3%; vertical-align: top;">1.</td>
-                                <td>Menghasilkan lulusan yang unggul dan profesional dalam bidang manufacturing.</td>
+                                <td>Menghasilkan lulusan yang unggul dan profesional dalam bidang manufakturing Berbasis IoT.</td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top;">2.</td>
-                                <td>Menghasilkan lulusan yang mempunyai landasan teori keilmuan yang kuat dan kemampuan praktis yang tinggi dalam bidang manufakturing.</td>
+                                <td>Menghasilkan lulusan yang mempunyai landasan teori keilmuan yang kuat dan kemampuan praktis yang tinggi dalam bidang manufakturing Berbasis IoT.</td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top;">3.</td>
-                                <td>Menghasilkan karya ilmiah dan hasil penelitian lainnya dalam bidang manufakturing yang dipublikasikan pada tingkat Nasional</td>
+                                <td>Menghasilkan karya ilmiah dan hasil penelitian lainnya dalam bidang manufakturing Berbasis IoT yang dipublikasikan pada tingkat Nasional.</td>
                             </tr>
                            <tr>
                               <td style="vertical-align: top;">3.</td>
-                              <td>Terjalinnya kerjasama dalam bidang manufakturing dengan masyarakat, industri, pemerintah dan stakeholder lainnya pada tingkat Nasional.</td>
+                              <td>Terjalinnya kerjasama dalam bidang manufacturing dengan masyarakat, industri, pemerintah dan stakeholder lainnya pada tingkat Nasional.</td>
                            </tr>
                         </table>
                     </div>
