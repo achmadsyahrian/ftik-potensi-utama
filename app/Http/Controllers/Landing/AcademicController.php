@@ -19,7 +19,7 @@ class AcademicController extends Controller
                         $query->where('tags.id', 1);
                     });
             })
-            ->orderBy('created_at', 'desc')
+            ->orderBy('date', 'desc')
             ->take(3)
             ->get();
 
@@ -37,7 +37,7 @@ class AcademicController extends Controller
                         $query->where('tags.id', 2);
                     });
             })
-            ->orderBy('created_at', 'desc')
+            ->orderBy('date', 'desc')
             ->take(3)
             ->get();
 
@@ -55,7 +55,7 @@ class AcademicController extends Controller
                         $query->where('tags.id', 3);
                     });
             })
-            ->orderBy('created_at', 'desc')
+            ->orderBy('date', 'desc')
             ->take(3)
             ->get();
 
@@ -73,7 +73,7 @@ class AcademicController extends Controller
                         $query->where('tags.id', 4);
                     });
             })
-            ->orderBy('created_at', 'desc')
+            ->orderBy('date', 'desc')
             ->take(3)
             ->get();
 
@@ -91,7 +91,7 @@ class AcademicController extends Controller
                         $query->where('tags.id', 5);
                     });
             })
-            ->orderBy('created_at', 'desc')
+            ->orderBy('date', 'desc')
             ->take(3)
             ->get();
 
@@ -109,7 +109,7 @@ class AcademicController extends Controller
                         $query->where('tags.id', 6);
                     });
             })
-            ->orderBy('created_at', 'desc')
+            ->orderBy('date', 'desc')
             ->take(3)
             ->get();
 
@@ -127,7 +127,7 @@ class AcademicController extends Controller
                         $query->where('tags.id', 7);
                     });
             })
-            ->orderBy('created_at', 'desc')
+            ->orderBy('date', 'desc')
             ->take(3)
             ->get();
 
